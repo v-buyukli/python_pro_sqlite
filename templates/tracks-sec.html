@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracks</title>
+</head>
+<body>
+Tracks <br><br>
+{% for track in tracks %}
+  track: {{ track[0] }}, time: {{ track[1] }} <br>
+{% endfor %}
+</body>
+</html>
